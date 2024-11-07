@@ -2788,6 +2788,36 @@ ol {
 	margin-right: 5px;
 }
 
+/* Universal wahtsapp float */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Ensures it appears above other content */
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+/* Style the icon */
+.whatsapp-float img {
+    width: 50%;
+    height: 50%;
+}
+
+
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1650px) and (max-width: 1920px) {
