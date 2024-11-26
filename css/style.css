@@ -703,6 +703,24 @@ ol {
 	bottom: 26px;
 }
 
+.batches {
+	display: flex;
+	gap: 10px;
+}
+
+.batches video,.batches img {
+	width: 40%;
+	margin: auto;
+}
+@media  (max-width: 767px) {
+	.batches {
+		flex-direction: column;
+	}
+	.batches video, .batches img {
+		width: 90%;
+	}
+}
+
 /*---------------------
   Banner Section
 -----------------------*/
