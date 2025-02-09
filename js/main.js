@@ -170,7 +170,7 @@
 
 // Open the popup form
 function openPopupForm() {
-  document.getElementById("popup-form").style.display = "block";
+  document.getElementById("popup-form").style.display = "flex";
 }
 
 // Close the popup form
